@@ -3,18 +3,21 @@ body {
     flex-direction: column;
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    justify-content: space-between;
+    min-height: 100vh;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 64px;
-    padding-right: 64px;
+    padding-left: 128px;
+    padding-right: 128px;
 }
 
 .logo {
     font-size: 24px;
+    font-weight: 900;
 }
 
 .links {
@@ -27,13 +30,32 @@ ul {
     gap: 16px;
 }
 
+button {
+    background-color: #3882F6;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.top-signup {
+  
+}
+
 .top {
     display: flex;
+    gap: 24px;
 }
 
 .top-title {
     font-size: 48px;
     font-weight: 900;
+}
+.top-subtext {
+    font-size: 18px;
 }
 
 .middle {
@@ -68,11 +90,16 @@ ul {
 }
 
 .top-right-img {
-    width: 300px;
+    width: 500px;
     height: auto;
 }
 
 .header, .top, .footer {
     color: #F9FAF8;
     background-color: #1F2937;
+}
+
+.top, .middle, .quote-section, .bottom {
+    flex: 1;
+    padding: 64px 128px 64px 128px;
 }
