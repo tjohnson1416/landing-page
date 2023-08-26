@@ -41,8 +41,8 @@ button {
     font-size: 18px;
 }
 
-.top-signup {
-  
+.bottom-signup {
+    border-color: white;
 }
 
 .top {
@@ -58,14 +58,38 @@ button {
     font-size: 18px;
 }
 
+.top-left {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
 .middle {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 64px;
+}
+
+.mid-title {
+    font-weight: 900;
+    font-size: 36px;
 }
 
 .cards {
     display: flex;
+    gap: 128px;
+}
+
+.mid-card {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 210px;
+}
+
+.mid-subtext {
+    text-align: center;
 }
 
 .quote-section {
@@ -85,8 +109,10 @@ button {
 }
 
 .mid-img {
-    width: 100px;
+    width: 200px;
     height: auto;
+    border: 5px solid #3882F6;
+    border-radius: 16px;
 }
 
 .top-right-img {
