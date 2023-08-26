@@ -1,6 +1,8 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 .header {
@@ -11,6 +13,14 @@ body {
     padding-right: 64px;
 }
 
+.logo {
+    font-size: 24px;
+}
+
+.links {
+    font-size: 18px;
+}
+
 ul {
     list-style: none;
     display: flex;
@@ -19,6 +29,11 @@ ul {
 
 .top {
     display: flex;
+}
+
+.top-title {
+    font-size: 48px;
+    font-weight: 900;
 }
 
 .middle {
@@ -35,6 +50,7 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #E5E7EB;
 }
 
 .bottom {
@@ -54,4 +70,9 @@ ul {
 .top-right-img {
     width: 300px;
     height: auto;
+}
+
+.header, .top, .footer {
+    color: #F9FAF8;
+    background-color: #1F2937;
 }
