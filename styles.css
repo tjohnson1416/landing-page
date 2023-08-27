@@ -47,7 +47,7 @@ button {
 
 .top {
     display: flex;
-    gap: 24px;
+    gap: 64px;
 }
 
 .top-title {
@@ -78,7 +78,8 @@ button {
 
 .cards {
     display: flex;
-    gap: 128px;
+    justify-content: center;
+    gap: 64px;
 }
 
 .mid-card {
