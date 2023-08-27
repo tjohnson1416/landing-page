@@ -100,6 +100,20 @@ button {
     background-color: #E5E7EB;
 }
 
+.quote {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.quotee {
+    text-align: right;
+    margin-left: auto;
+    margin-right: 0;
+    font-size: 24px;
+    font-weight: 600;
+}
+
 .bottom {
     display: flex;
 }
