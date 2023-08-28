@@ -54,6 +54,7 @@ button {
 .top {
     display: flex;
     gap: 64px;
+    justify-content: space-between;
 }
 
 .top-title {
