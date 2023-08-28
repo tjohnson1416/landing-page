@@ -43,6 +43,12 @@ button {
 
 .bottom-signup {
     border-color: white;
+    border-style: solid;
+    width: 180px;
+}
+
+.top-signup {
+    width: 180px;
 }
 
 .top {
@@ -78,7 +84,7 @@ button {
 
 .cards {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     gap: 64px;
 }
 
@@ -87,6 +93,7 @@ button {
     flex-direction: column;
     gap: 16px;
     width: 210px;
+    flex-grow: 1;
 }
 
 .mid-subtext {
@@ -116,6 +123,27 @@ button {
 
 .bottom {
     display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    background-color: #3882F6;
+    flex-grow: 1;
+    padding: 64px;
+    justify-content: space-between;
+}
+
+.bottom-left {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    color:#E5E7EB;
+}
+
+.title-bottom {
+    font-weight: 900;
+    font-size: 24px;
 }
 
 .footer {
